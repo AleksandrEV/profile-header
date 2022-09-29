@@ -1,0 +1,40 @@
+.profil {
+   display: flex;
+   justify-content: flex-start;
+   width: 323px;
+   margin: 0 auto;
+   border: 1px rgb(152, 231, 255) dashed;
+   padding: 5px;
+   background-color: #F5F5F5;
+}
+.round {
+   position: relative;
+   width: 55px; 
+   height: 55px;
+   background: #83A7C9;
+   border-radius: 50%;
+}
+.avatar {
+   position: absolute;
+   width: 40px;
+   height: 40px;
+   margin: 7.5px;
+}
+.name {
+   display: inline-block;
+   font-size: 24px;
+   width: 268px;
+   margin: auto 0;
+   padding-left: 8px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.online {
+   position: absolute;
+   width: 12px; 
+   height: 12px;
+   background: #71DD37;
+   border-radius: 50%;
+   border: 3px solid white;
+   bottom: 0px;
+   right: 0px;
+}
